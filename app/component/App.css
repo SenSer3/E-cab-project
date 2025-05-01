@@ -1,0 +1,78 @@
+/* .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cab-list, .booking-form, .booking-confirmation {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  } */
+
+  .app-container {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .ride-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .map-container, .ride-complete {
+    width: 48%;
+    padding: 10px;
+  }
+  
+  .pickup-location {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .map {
+    height: 300px; /* Placeholder for map */
+    background-color: #d3d3d3;
+  }
+  
+  .rating span {
+    font-size: 20px;
+  }
